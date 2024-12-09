@@ -12,4 +12,7 @@ local options = {
   -- },
 }
 
+-- c/cpp
+options.formatters_by_ft.cpp = { "clang-format" }
+
 return options
