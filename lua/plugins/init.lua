@@ -13,6 +13,12 @@ return {
     end,
   },
 
+  -- add beautiful rendering of vim.ui.select and vim.ui.input
+  {
+    "stevearc/dressing.nvim",
+    lazy = false,
+    opts = {},
+  },
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
